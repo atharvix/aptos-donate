@@ -1,0 +1,14 @@
+[package]
+name = "aptos_donate"
+version = "1.0.0"
+authors = ["Atharv Mehrotra"]
+
+[addresses]
+aptos_donate = "0xc46c3ee00c354e58cff015370b6d79f3e2798eaef74711c259ebe439c8b28cbd"
+donation = "0xc46c3ee00c354e58cff015370b6d79f3e2798eaef74711c259ebe439c8b28cbd"
+std = "0x1"
+aptos_framework = "0x1"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "testnet" }
+
